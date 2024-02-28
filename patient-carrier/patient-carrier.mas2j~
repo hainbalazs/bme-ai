@@ -1,0 +1,13 @@
+MAS patientCarrier {
+
+	infrastructure: Centralised
+
+	environment: HospitalEnvironment(gui)
+
+	agents:
+		carrier #5;
+		testManager;
+
+	aslSourcePath:
+		"src";
+}
